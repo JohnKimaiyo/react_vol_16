@@ -11,6 +11,7 @@ import Users from "./component/Users";
 import Event from "./component/Event";
 import Range from "./component/Range";
 import Submit from "./component/Submit";
+import InputFocus from "./component/InputFocus";
 function App() {
   return (
     <div className="App">
@@ -23,9 +24,11 @@ function App() {
       <Mycount />
       <Form />
       <Users />
-      <Event/>
-      <Range/>
-      <Submit/>
+      <Event />
+      <Range />
+      <Submit />
+
+      <InputFocus />
     </div>
   );
 }
